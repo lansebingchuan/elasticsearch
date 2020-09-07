@@ -8,6 +8,7 @@ public class OracleApp {
 
     public static void main(String[] args) {
         SpringApplication.run(OracleApp.class, args);
+        System.out.println("启动了");
     }
 
 

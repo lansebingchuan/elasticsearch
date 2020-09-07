@@ -19,6 +19,7 @@ public class SearchApp {
          */
         System.setProperty("es.set.netty.runtime.available.processors", "false");
         SpringApplication.run(SearchApp.class, args);
+        System.out.println("启动了");
     }
 
 }
