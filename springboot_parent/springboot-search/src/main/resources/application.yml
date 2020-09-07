@@ -1,0 +1,9 @@
+server:
+  port: 8080
+spring:
+  data:
+    elasticsearch:
+      cluster-name: my-application
+      cluster-nodes: 192.168.0.42:9300
+  application:
+    name: userSearch

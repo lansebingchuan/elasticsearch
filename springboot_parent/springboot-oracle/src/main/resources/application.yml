@@ -1,0 +1,11 @@
+server:
+  port: 8080
+spring:
+  jpa:
+    database: oracle
+    show-sql: true
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@10.1.22.94:1521
+    username: hr_interface
+    password: hr_interface
